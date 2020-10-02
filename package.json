@@ -1,0 +1,43 @@
+{
+  "name": "bedrock-stats-prometheus",
+  "version": "0.0.1-0",
+  "description": "Bedrock stats reporter for Prometheus.",
+  "main": "./lib",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-stats-prometheus"
+  },
+  "keywords": [
+    "bedrock",
+    "stats",
+    "prometheus"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-stats-prometheus/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-stats-prometheus",
+  "peerDependencies": {
+    "bedrock": "^3.1.0",
+    "bedrock-express": "^3.2.0",
+    "bedrock-stats": "^1.0.2",
+    "bedrock-stats-storage-redis": "^1.0.2"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-digitalbazaar": "^2.6.1"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
